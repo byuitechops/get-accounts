@@ -1,0 +1,23 @@
+{
+  "name": "get-accounts",
+  "version": "1.0.0",
+  "description": "A recursive way of finding all the sub-accounts inside of an account",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node main.js > accounts.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/byuitechops/get-accounts.git"
+  },
+  "author": "Seth Childers",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/byuitechops/get-accounts/issues"
+  },
+  "homepage": "https://github.com/byuitechops/get-accounts#readme",
+  "dependencies": {
+    "canvas-api-wrapper": "^3.3.5"
+  }
+}
